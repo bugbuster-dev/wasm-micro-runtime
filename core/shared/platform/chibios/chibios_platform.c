@@ -5,12 +5,6 @@
 #include "ch.h"
 #include "chvt.h"
 
-#define MEM_DUAL_BUS_OFFSET (0)
-#define IRAM0_CACHE_ADDRESS_LOW (0)
-#define IRAM0_CACHE_ADDRESS_HIGH (0)
-#define in_ibus_ext(addr) (0)
-
-
 
 int
 os_mutex_init(korp_mutex *mutex) { return 0; }
